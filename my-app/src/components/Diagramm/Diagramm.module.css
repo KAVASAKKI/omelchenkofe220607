@@ -1,0 +1,27 @@
+.list {
+  list-style: none;
+  padding: 0;
+}
+
+.title {
+  font-size: 20px;
+  color: gray;
+  text-align: center;
+}
+
+.button {
+  padding: 15px 20px;
+  border: none;
+  outline: none;
+  transition: all 200ms linear;
+}
+
+.button:active,
+.button:hover,
+.button:focus {
+  background-color: rgba(24, 209, 209, 0.336);
+  color: white;
+}
+.button:hover {
+  cursor: pointer;
+}
